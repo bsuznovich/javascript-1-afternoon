@@ -186,11 +186,11 @@ return function(){
 
 //Now save the result of invoking outerFn into a variable called innerFn.
 
-function innerFn(){
+function innerFn(string){
   return outerFn()
 }
 //Code Here
 
 //Now invoke innerFn and save the result to a variable called finalResult.
-let finalResult = innerFn()
+let finalResult = innerFn(string)
 //Code Here
