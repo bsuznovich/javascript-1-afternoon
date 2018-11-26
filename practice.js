@@ -54,11 +54,18 @@ function doubleCheck(array){
 //name (a string), color: (a string), age (a number),
 //and goodBoy (a boolean).
 
+var dog ={
+  name: "Sir Woofinstein",
+  color: "green",
+  age: 3,
+  goodBoy: true
+}
 //Code Here
 
 //...access the dog's name from the object and assign it to a
 //variable called devMountainClassPet.
 
+var devMountainClassPet = dog.name;
 //Code Here
 
 //Add a method to dog called bark.
