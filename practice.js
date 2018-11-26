@@ -25,7 +25,7 @@ return "Hello, " + name;
 //Rewrite the function greeting as an arrow function.
 //Name it finalGreeting.
 
-var finalGreeting = name => "Hello, " + name;
+var finalGreeting = (name) => "Hello, " + name;
 //Code Here
 
 //////////////////PROBLEM 4////////////////////
@@ -42,9 +42,15 @@ let groceries = ['apples', 'milk', 'eggs', 'bread']
 //If the array does not contain "chocolate", add "chocolate".
 //doubleCheck should return the array.
 
-//function doubleCheck(array){
-
-//}
+function doubleCheck(arr){
+  for(let i=,i<arr.lenght;i++){
+    if(arr[i] === 'chocolate'){
+      return arr
+    }
+  }
+  arr.push('chocolate')
+  return arr
+}
 //Code Here
 
 //////////////////PROBLEM 5////////////////////
@@ -92,11 +98,18 @@ var ruff = dog.bark()
 
 //Return mySum.
 
-//function looper(array){
-//var mySum = 0;
-//for(i=1;i<=100;i++)
-
-//}
+function looper(arr){
+var mySum = 0;
+for(let i=1;i<arr.length;i++){
+  console.log(arr[i]);
+  if(arr[i] % 2 !== 0){
+    mySum += arr[i]
+  }
+  else if(arr[i] >= 100){
+    mySum += arr[i]
+  }
+  return mySum
+}
 //Code Here
 
 //////////////////PROBLEM 7////////////////////
