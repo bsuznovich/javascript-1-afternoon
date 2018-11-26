@@ -71,12 +71,14 @@ var devMountainClassPet = dog.name;
 //Add a method to dog called bark.
 //The value of bark should be a function that returns the string "Woof woof".
 
-
+dog.bark = function(){
+  return "Woof woof"
+}
 //Code Here
 
 //Store the result of invoking the bark method in a variable called ruff.
 
-
+var ruff = dog.bark()
 //Code Here
 
 //////////////////PROBLEM 6////////////////////
