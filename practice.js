@@ -133,7 +133,7 @@ function sampleCallbackTwo() {
 }
 
 function invoker(callback){
-  return callback;
+  return callback();
 }
 //Code Here
 
@@ -175,12 +175,20 @@ let pondScope = ["duck", "realDuck"];
 //Create a function called outerFn which returns an anonymous
 //function which returns your name.
 
+function outerFn(){
+return function(){
+  return "Brody"
+}
+}
 //Code Here
 
 //Now save the result of invoking outerFn into a variable called innerFn.
 
+function innerFn(){
+  return outerFn()
+}
 //Code Here
 
 //Now invoke innerFn and save the result to a variable called finalResult.
-
+let finalResult = innerFn()
 //Code Here
