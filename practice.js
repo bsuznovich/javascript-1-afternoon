@@ -108,11 +108,15 @@ function math(num1, num2, callback) {
 //Write a function called add that takes in two parameters and
 //returns the result of adding them together.
 
+function add(num1,num2){
+  return num1 + num2;
+}
 //Code Here
 
 //Now invoke math, passing in the numbers 3 and 4, and your add function,
 //storing the result in the variable mathSum.
 
+var mathSum = math(3, 4, add)
 //Code Here
 
 //////////////////PROBLEM 8////////////////////
