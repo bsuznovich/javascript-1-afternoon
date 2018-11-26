@@ -15,6 +15,9 @@ return "Hello, " + name;
 //Rewrite the function greeting as a function expression.
 //Name it newGreeting.
 
+var newGreeting = function(name){
+return "Hello, " + name;
+}
 //Code Here
 
 //////////////////PROBLEM 3////////////////////
@@ -22,6 +25,7 @@ return "Hello, " + name;
 //Rewrite the function greeting as an arrow function.
 //Name it finalGreeting.
 
+var finalGreeting = name => "Hello, " + name;
 //Code Here
 
 //////////////////PROBLEM 4////////////////////
@@ -29,6 +33,7 @@ return "Hello, " + name;
 //Create an array called groceries with the values
 //"apples", "milk", "eggs", "bread"
 
+let groceries = ['apples', 'milk', 'eggs', 'bread']
 //Code Here
 
 //Write a function called doubleCheck that takes in an array
@@ -37,6 +42,9 @@ return "Hello, " + name;
 //If the array does not contain "chocolate", add "chocolate".
 //doubleCheck should return the array.
 
+function doubleCheck(array){
+
+}
 //Code Here
 
 //////////////////PROBLEM 5////////////////////
