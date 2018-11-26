@@ -42,9 +42,9 @@ let groceries = ['apples', 'milk', 'eggs', 'bread']
 //If the array does not contain "chocolate", add "chocolate".
 //doubleCheck should return the array.
 
-function doubleCheck(array){
+//function doubleCheck(array){
 
-}
+//}
 //Code Here
 
 //////////////////PROBLEM 5////////////////////
@@ -71,9 +71,11 @@ var devMountainClassPet = dog.name;
 //Add a method to dog called bark.
 //The value of bark should be a function that returns the string "Woof woof".
 
+
 //Code Here
 
 //Store the result of invoking the bark method in a variable called ruff.
+
 
 //Code Here
 
@@ -88,6 +90,11 @@ var devMountainClassPet = dog.name;
 
 //Return mySum.
 
+//function looper(array){
+//var mySum = 0;
+//for(i=1;i<=100;i++)
+
+//}
 //Code Here
 
 //////////////////PROBLEM 7////////////////////
